@@ -1,0 +1,1 @@
+export SSL_CERT_FILE=$(brew --prefix curl-ca-bundle)share/ca-bundle.crt

@@ -1,0 +1,45 @@
+# Make vim the default editor
+export EDITOR="/usr/localmate"
+
+# Larger bash history (allow 32³ entries; default is 500)
+export HISTSIZE=32768
+export HISTFILESIZE=$HISTSIZE
+export HISTCONTROL=ignoredups
+# Make some commands not show up in history
+export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
+
+# Prefer US English and use UTF-8
+export LANG="en_US"
+export LC_ALL="en_US.UTF-8"
+
+# Highlight section titles in manual pages
+export LESS_TERMCAP_md="$ORANGE"
+
+# Don’t clear the screen after quitting a manual page
+export MANPAGER="less -X"
+
+# Always enable colored `grep` output
+export GREP_OPTIONS="--color=auto"
+
+# Link Homebrew casks in `/Applications` rather than `~/Applications`
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
+
+export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
+
+## export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+
+export PATH=/usr/local/apache/bin:/usr/local/mysql/bin:/usr/local/share/npm/bin:~/Dropbox/myScript:/usr/local/opt/coreutils/libexec/gnubin:$PATH
+
+export MANPATH=/usr/local/php/man:/usr/local/opt/coreutils/libexec/gnuman:$MANPATH
+
+# for homebrew auto-scaling
+#export JAVA_HOME="$(/usr/libexec/java_home)"
+#export AWS_ACCESS_KEY_ID=AKIAJ3LW2R5GUFDFCM7A
+#export AWS_SECRET_ACCESS_KEY=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
+#export AWS_AUTO_SCALING_HOME="/usr/local/Library/LinkedKegs/auto-scaling/jars"
+#export EC2_PRIVATE_KEY="$(/bin/ls "$HOME"/.ec2/pk-*.pem | /usr/bin/head -1)"
+#export EC2_CERT="$(/bin/ls "$HOME"/.ec2/cert-*.pem | /usr/bin/head -1)"
+#export EC2_HOME="/usr/local/Library/LinkedKegs/ec2-api-tools/jars"
+
