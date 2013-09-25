@@ -1,4 +1,3 @@
-echo "loading ~/.bashrc...."
-[ -n "$PS1" ] && source ~/.bash_profile
+echo "loading ~/.bashrc..."
 
-export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
+source /home7/tvctopin/.bash_profile
