@@ -1,5 +1,4 @@
 echo "loading ~/.bash_profile...."
-# Add `~/bin` to the `$PATH`
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -11,7 +10,7 @@ unset file
 
 ## set the PATH
 export PYTHONPATH="/home7/tvctopin/lib/python2.6/site-packages:$PYTHONPATH"
-export PATH="/home7/tvctopin/opt/gnu-sed/libexec/gnubin:/home7/tvctopin/bin:/home7/tvctopin/sbin:/home7/tvctopin/perl/bin:/home7/tvctopin/ruby/gems/bin:$PATH
+export PATH="/home7/tvctopin/opt/gnu-sed/libexec/gnubin:/home7/tvctopin/bin:/home7/tvctopin/sbin:/home7/tvctopin/perl/bin:/home7/tvctopin/ruby/gems/bin:$PATH"
 
 export LD_LIBRARY_PATH="/home7/tvctopin/lib"
 
