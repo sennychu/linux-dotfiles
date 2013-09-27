@@ -1,6 +1,17 @@
 # bash setting 6 load
 echo "loading ~/.functions...."
 
+# my linux server shell-env upload to Github Repo
+function dotUp() {
+                echo "Upload the tvctop.info-Shell-Env-Profile to Github,"
+	 	echo "see more https://github.com/sennychu/linux-dotfiles. "
+		echo # newline
+		Server_Repository=/home7/tvctopin/linux-dotfiles
+		cd $Server_Repository
+		set -- -f; source bootstrap.sh
+		git add -A; git commit -m "update by SC,from tvctop.info"; git push
+}
+
 function bR() {
         brew unlink "$@" && brew uninstall "$@"
 }
