@@ -27,4 +27,6 @@ export GREP_OPTIONS="--color=auto"
 
 export GIT_SSL_NO_VERIFY=1
 export HOMEBREW_TEMP=/home7/tvctopin/var/tmp
+export HOMEBREW_CACHE=/home7/tvctopin/.cache/Homebrew
+
 
