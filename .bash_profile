@@ -10,6 +10,7 @@ unset file
 
 ## set the PATH
 export PYTHONPATH="/home7/tvctopin/lib/python2.6/site-packages:$PYTHONPATH"
+export XML_CATALOG_FILES="/home7/tvctopin/etc/xml/catalog"
 export PATH="/home7/tvctopin/opt/gnu-sed/libexec/gnubin:/home7/tvctopin/bin:/home7/tvctopin/sbin:/home7/tvctopin/perl/bin:/home7/tvctopin/ruby/gems/bin:$PATH"
 
 export LD_LIBRARY_PATH="/home7/tvctopin/lib"
